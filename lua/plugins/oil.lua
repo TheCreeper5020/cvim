@@ -16,6 +16,7 @@ return {
             ["_"] = { "actions.open_cwd", mode = "n" },
             ["`"] = { "actions.cd", mode = "n" },
         },
+        prompt_save_on_select_new_entry = true,
     },
     dependencies = { { "nvim-mini/mini.icons", opts = {} } },
     lazy = false,
