@@ -26,6 +26,7 @@ return {
                 { section = "startup" },
             },
         },
+        dim = {},
         explorer = {},
         indent = {},
         picker = {},
