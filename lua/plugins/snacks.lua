@@ -20,9 +20,9 @@ return {
                 }
             },
             sections = {
-                { section = "header" },
-                { icon = " ", title = "Keymaps", section = "keys", indent = 4, padding = 1 },
-                { icon = " ", title = "Recent Files", section = "recent_files", indent = 4, padding = 1 },
+                { section = "header", align = "center" },
+                { section = "keys", padding = 1, gap = 1 },
+                { pane = 1, icon = " ", title = "Recent Files", section = "recent_files", indent = 4, padding = 1 },
                 { section = "startup" },
             },
         },
