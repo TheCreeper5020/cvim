@@ -26,7 +26,6 @@ return {
                 { section = "startup" },
             },
         },
-        dim = {},
         explorer = {},
         indent = {},
         picker = {},
@@ -60,6 +59,6 @@ return {
         -- todo comments
         { "<leader>st", function() Snacks.picker.todo_comments() end, desc = "Todo comments" },
         -- dash
-        { "<leader>d", function() Snacks.dashboard.open() end, desc = "Dashboard" }
+        { "<leader>h", function() Snacks.dashboard.open() end, desc = "Dashboard" },
     },
 }

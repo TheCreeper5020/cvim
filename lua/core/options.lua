@@ -25,10 +25,4 @@ vim.o.incsearch = true
 vim.o.hlsearch = true
 
 vim.o.background = "dark"
-
-vim.api.nvim_create_autocmd("User", {
-    pattern = "VeryLazy",
-    callback = function()
-        Snacks.dim()
-    end,
-})
+vim.o.scrolloff = 10
